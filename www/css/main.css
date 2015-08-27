@@ -1,13 +1,18 @@
 /* global css */
 
 body {
-	background-color: lightskyblue;
+	background-color: steelblue;
 }
 .background {
 	position: absolute;
 	z-index: 100;
 }
 h1 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bolder;
+}
+h2 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-weight: bolder;
@@ -83,6 +88,12 @@ ul li {
 }
 .intro {
 	margin-bottom: 35px;
+}
+.contact {
+	text-align: center;
+}
+.contact li {
+	list-style: none;
 }
 
 /* content wells */
